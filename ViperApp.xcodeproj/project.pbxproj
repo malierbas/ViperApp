@@ -6,27 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		414A31B12CE34A8600A6D454 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 414A31B02CE34A8600A6D454 /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		41CC86CD2CE3455600D5630F /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CC86CD2CE3455600D5630F /* ViperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		41CC86DF2CE3455800D5630F /* Exceptions for "TestApp" folder in "TestApp" target */ = {
+		41CC86DF2CE3455800D5630F /* Exceptions for "ViperApp" folder in "ViperApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 41CC86CC2CE3455600D5630F /* TestApp */;
+			target = 41CC86CC2CE3455600D5630F /* ViperApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		41CC86CF2CE3455600D5630F /* TestApp */ = {
+		41CC86CF2CE3455600D5630F /* ViperApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				41CC86DF2CE3455800D5630F /* Exceptions for "TestApp" folder in "TestApp" target */,
+				41CC86DF2CE3455800D5630F /* Exceptions for "ViperApp" folder in "ViperApp" target */,
 			);
-			path = TestApp;
+			path = ViperApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414A31B12CE34A8600A6D454 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +50,7 @@
 		41CC86C42CE3455600D5630F = {
 			isa = PBXGroup;
 			children = (
-				41CC86CF2CE3455600D5630F /* TestApp */,
+				41CC86CF2CE3455600D5630F /* ViperApp */,
 				41CC86CE2CE3455600D5630F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +58,7 @@
 		41CC86CE2CE3455600D5630F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41CC86CD2CE3455600D5630F /* TestApp.app */,
+				41CC86CD2CE3455600D5630F /* ViperApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41CC86CC2CE3455600D5630F /* TestApp */ = {
+		41CC86CC2CE3455600D5630F /* ViperApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41CC86E02CE3455800D5630F /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildConfigurationList = 41CC86E02CE3455800D5630F /* Build configuration list for PBXNativeTarget "ViperApp" */;
 			buildPhases = (
 				41CC86C92CE3455600D5630F /* Sources */,
 				41CC86CA2CE3455600D5630F /* Frameworks */,
@@ -74,13 +79,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				41CC86CF2CE3455600D5630F /* TestApp */,
+				41CC86CF2CE3455600D5630F /* ViperApp */,
 			);
-			name = TestApp;
+			name = ViperApp;
 			packageProductDependencies = (
+				414A31B02CE34A8600A6D454 /* SnapKit */,
 			);
 			productName = TestApp;
-			productReference = 41CC86CD2CE3455600D5630F /* TestApp.app */;
+			productReference = 41CC86CD2CE3455600D5630F /* ViperApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 41CC86C82CE3455600D5630F /* Build configuration list for PBXProject "TestApp" */;
+			buildConfigurationList = 41CC86C82CE3455600D5630F /* Build configuration list for PBXProject "ViperApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,12 +113,15 @@
 			);
 			mainGroup = 41CC86C42CE3455600D5630F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				414A31AF2CE34A8600A6D454 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 41CC86CE2CE3455600D5630F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41CC86CC2CE3455600D5630F /* TestApp */,
+				41CC86CC2CE3455600D5630F /* ViperApp */,
 			);
 		};
 /* End PBXProject section */
@@ -147,10 +156,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K486TPXX49;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestApp/Info.plist;
+				INFOPLIST_FILE = ViperApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -175,10 +183,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K486TPXX49;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestApp/Info.plist;
+				INFOPLIST_FILE = ViperApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41CC86C82CE3455600D5630F /* Build configuration list for PBXProject "TestApp" */ = {
+		41CC86C82CE3455600D5630F /* Build configuration list for PBXProject "ViperApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41CC86E32CE3455800D5630F /* Debug */,
@@ -325,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41CC86E02CE3455800D5630F /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+		41CC86E02CE3455800D5630F /* Build configuration list for PBXNativeTarget "ViperApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41CC86E12CE3455800D5630F /* Debug */,
@@ -335,6 +342,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		414A31AF2CE34A8600A6D454 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		414A31B02CE34A8600A6D454 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 414A31AF2CE34A8600A6D454 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41CC86C52CE3455600D5630F /* Project object */;
 }
